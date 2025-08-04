@@ -13,6 +13,7 @@ TEMPERATURE_LEVELS = [
 ]
 
 # Player and goal positions
+Lifeline = 2;
 player = [0, 0]
 goal = [random.randint(-10, 10), random.randint(-10, 10)]
 
@@ -45,6 +46,16 @@ while True:
 
     if temp == "already there":
         print("You found it! Nice.")
+        break
+
+    if temp == "freezing":
+        Lifeline --;
+
+    if Lifeline == 1:
+        print("You feel a chill in your bones");
+
+    if Lifeline == 0:
+        print("You have ventured too far");
         break
 
     move = input("Move (w/a/s/d): ").strip().lower()
