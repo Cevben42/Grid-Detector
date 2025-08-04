@@ -49,7 +49,7 @@ while True:
         break
 
     if temp == "freezing":
-        Lifeline -1
+        Lifeline -=1
 
     if Lifeline == 1:
         print("You feel a chill in your bones");
