@@ -6,10 +6,10 @@ TEMPERATURE_LEVELS = [
     (0, "already there"),
     (1, "scorching"),
     (3, "hot"),
-    (6, "warm"),
-    (10, "cold"),
-    (15, "very cold"),
-    (20, "freezing")
+    (4, "warm"),
+    (7, "cold"),
+    (8, "very cold"),
+    (15, "freezing")
 ]
 
 # Player and goal positions
