@@ -47,13 +47,13 @@ while True:
     if temp == "freezing":
         Lifeline -1
 
-    if Lifeline == 3 & temp == "freezing":
+    if Lifeline == 3 and temp == "freezing":
         print("You feel a chill in your bones")
     
-    if Lifeline == 2 & temp == "freezing":
+    if Lifeline == 2 and temp == "freezing":
         print("Your knees start to give out")
 
-    if Lifeline == 1 & temp == "freezing":
+    if Lifeline == 1 and temp == "freezing":
         print("Your vision darkens. The end is near")
 
     if Lifeline == 0:
