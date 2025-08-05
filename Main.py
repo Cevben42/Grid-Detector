@@ -38,7 +38,7 @@ def move_player(direction):
     else:
         print("Invalid input. Use only w/a/s/d.")
 
-print("Find the hidden point using w/a/s/d. Type 'quit' to give up.")
+print("Find the sun using w/a/s/d. Type 'quit' to give up.")
 while True:
     dist = distance(player, goal)
     temp = get_temperature(dist)
